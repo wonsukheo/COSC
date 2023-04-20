@@ -1,0 +1,3 @@
+﻿  xc_math_problem.cpp
+C:\Users\brian_m\source\repos\xc_math_problem\xc_math_problem\xc_math_problem.cpp(153,10): warning C4101: 'c': unreferenced local variable
+  xc_math_problem.vcxproj -> C:\Users\brian_m\source\repos\xc_math_problem\Debug\xc_math_problem.exe
