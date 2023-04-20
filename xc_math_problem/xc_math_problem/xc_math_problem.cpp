@@ -178,3 +178,27 @@ void promptData(void)
         break;
     }
 }
+
+
+string convertToFractionInString(double value)
+{
+    double precision = 100; //precision
+
+    double preciseValue = floor(value * precision);
+
+    double gcd = getGcd(preciseValue, precision);
+
+    return preciseValue / gcd + " / " + precision / gcd;
+}
+
+double getGcd(double a, double b)
+{
+    if (a == 0) {
+        return b;
+    }
+    else if (b == 0) {
+        return a;
+    }
+
+    return getGcd(a, b % a);
+}
