@@ -3,6 +3,15 @@
 // PROF KEITH
 // WON HEO
 
+/*TODO
+04/20
+1. https://stackoverflow.com/questions/26643695/converting-a-floating-point-decimal-value-to-a-fraction 
+   DISPLAY FRACTION
+
+2. -nan , display as invalid input
+
+*/ 
+
 #include <iostream>
 #include <string>
 #include <cmath>
